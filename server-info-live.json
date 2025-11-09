@@ -22,20 +22,47 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended!",
-                            "FontSize": 32,
+                            "Text": "Welcome to Mesozoic Ascended",
+                            "FontSize": 42,
                             "Justification": "Center",
-                            "Padding": [5, 5, 5, 20]
+                            "Color": [0, 0.8, 0.8],
+                            "Padding": [5, 5, 5, 10]
                         }
                     },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
                             "Text": "Your adventure starts here. Explore, survive, and thrive!",
-                            "FontSize": 16,
+                            "FontSize": 20,
                             "Justification": "Center",
-                            "Padding": [5, 5, 5, 5]
+                            "Color": [1, 1, 0],
+                            "Padding": [5, 5, 5, 15]
                         }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                        "Props": {
+                            "Padding": [5, 10, 5, 10]
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                                "Props": {
+                                    "Fill": 1
+                                },
+                                "UIItems": [
+                                    {
+                                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                                        "Props": {
+                                            "Image": "https://cdn.discordapp.com/attachments/1225103692051648582/1391701151707172954/magz_icon2.png?ex=6911a5b3&is=69105433&hm=42785ba0f9f796f55a6fabd9a0c3f824de0787608cd1924ffa724c19b96de322&",
+                                            "Width": 200,
+                                            "Height": 200,
+                                            "Padding": [10, 10, 10, 10]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",

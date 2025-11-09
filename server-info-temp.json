@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 12)",
+                            "Text": "Welcome to Mesozoic Ascended (UPDATE 13)",
                             "FontSize": 42,
                             "Justification": "Center",
                             "Color": [0, 0.8, 0.8],
@@ -73,6 +73,17 @@
                         },
                         "OnClickEvent": {
                             "Url": "https://discord.gg/zEkz9VnmNP"
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                        "Props": {
+                            "Label": "Support Our Server",
+                            "Image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Patreon_logo.svg",
+                            "Padding": [5, 5, 5, 5]
+                        },
+                        "OnClickEvent": {
+                            "Url": "https://www.patreon.com/c/MesozoicAscendedCluster"
                         }
                     }
                 ]
