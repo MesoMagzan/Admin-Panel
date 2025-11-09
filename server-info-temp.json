@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended (UPDATE 16)",
+                            "Text": "Welcome to Mesozoic Ascended (UPDATE 17)",
                             "FontSize": 42,
                             "Justification": "Center",
                             "Color": [0, 0.8, 0.8],
@@ -65,6 +65,16 @@
                         ]
                     },
                     {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "These Arks can be unforgiving, but you don't have to face them alone. Our community blends survival and PVE with progression that extends beyond the game itself.\n\nThrough our custom Discord bot, you can link your account, earn currency to spend in our shop, and rise through the leaderboards. Join our Discord to link and say hello to your fellow survivors.",
+                            "FontSize": 14,
+                            "Justification": "Center",
+                            "Color": [1, 1, 1],
+                            "Padding": [20, 10, 20, 20]
+                        }
+                    },
+                    {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                         "Props": {
                             "Label": "Join Our Discord",
@@ -78,8 +88,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                         "Props": {
-                            "Label": "Support Our Server",
-                            "Image": "https://cdn.discordapp.com/attachments/1437142335858282637/1437144294153519294/png-clipart-patreon-podcast-youtube-computer-icons-youtube-angle-text.png?ex=69122c6c&is=6910daec&hm=7dbd51b17fb16ed488d45ef921c6123d7c4201902afdd8a2d61eddc99225f78e&",
+                            "Label": "Support Our Server on Patreon",
                             "Padding": [5, 5, 5, 5]
                         },
                         "OnClickEvent": {
