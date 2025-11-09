@@ -1045,6 +1045,36 @@
                         ]
                     }
                 ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Props": {
+                    "Title": "The Meso Bot",
+                    "Note": "Information about our Discord bot",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "The Meso Bot",
+                            "FontSize": 32,
+                            "Justification": "Center",
+                            "Color": [1, 1, 1],
+                            "Padding": [5, 10, 5, 10]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "COMING SOON",
+                            "FontSize": 24,
+                            "Justification": "Center",
+                            "Color": [1, 1, 0],
+                            "Padding": [5, 5, 5, 10]
+                        }
+                    }
+                ]
             }
         ]
     }

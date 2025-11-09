@@ -858,6 +858,223 @@
                         ]
                     }
                 ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Props": {
+                    "Title": "Community Rules",
+                    "Note": "Please read and follow our community rules",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
+                        "Props": {
+                            "Fill": 1
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Please be sure to read through our community rules.",
+                                    "FontSize": 32,
+                                    "Color": [1, 0.5, 0.5],
+                                    "Justification": "Center",
+                                    "Padding": [5, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                                "Props": {
+                                    "Padding": [5, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "1. TOS",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- All members must follow ASA and Discord's TOS. Links to these can be found in the full community-rules channel.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "2. Respect",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Treat everyone with respect. Absolutely no harassment, witch hunting, sexism, racism or hate speech will be tolerated. Joking around in this way with friends should not be done publicly and kept to private dms.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "3. Content",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- No age-restricted or obscene content. This includes text, images or links featuring nudity, sex, hard violence or other disturbing graphic content. Political debates, personal drama or talking about any sensitive topics such as suicide, rape and so on must be kept out of the community. Stealing other members' content (images and so on) and claiming it as your own is also not allowed.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "4. Spam",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- No spam or self-promotion (server invites, advertisements etc) without permission from a staff member. This includes spamming/sending unwanted invites in DMs of fellow members.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "5. Rules",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- All members must read though our community-rules and our in-game-rules in full.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "6. Alternate Accounts",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Alternative accounts are not allowed and will be banned if discovered.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "7. Reporting",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- If you see something against the rules or something that makes you feel unsafe, let staff know. We want this server to be a welcoming space! (We will have a ticket system for this).",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "8. Arguments",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Discussing/arguing about rule breaks or warnings in public is not allowed.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "9. Voice Chat Channels",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- All members must also follow all community rules in voice chat channels. If a moderator is not present in a voice chat channel when a community rule is broken, a recording must be presented to staff before anything can be done about it.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Props": {
+                    "Title": "The Meso Bot",
+                    "Note": "Information about our Discord bot",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "The Meso Bot",
+                            "FontSize": 32,
+                            "Justification": "Center",
+                            "Color": [1, 1, 1],
+                            "Padding": [5, 10, 5, 10]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "COMING SOON",
+                            "FontSize": 24,
+                            "Justification": "Center",
+                            "Color": [1, 1, 0],
+                            "Padding": [5, 5, 5, 10]
+                        }
+                    }
+                ]
             }
         ]
     }
