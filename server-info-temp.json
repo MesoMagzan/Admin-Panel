@@ -20,6 +20,16 @@
                 },
                 "UIItems": [
                     {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 08)",
+                            "FontSize": 32,
+                            "Justification": "Center",
+                            "Color": [0, 0.8, 0.8],
+                            "Padding": [5, 5, 5, 10]
+                        }
+                    },
+                    {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
                         "Props": {
                             "HorizontalAlignment": 1,
@@ -36,15 +46,6 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 07)",
-                            "FontSize": 32,
-                            "Justification": "Center",
-                            "Padding": [5, 5, 5, 20]
-                        }
                     },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
