@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 01)",
+                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 02)",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 20]
@@ -68,8 +68,9 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "By playing on our Ark server, you agree to the following rule.",
-                                    "FontSize": 14,
-                                    "Padding": [5, 5, 5, 10]
+                                    "FontSize": 15,
+                                    "Color": [0.9, 0.9, 0.9],
+                                    "Padding": [5, 5, 5, 5]
                                 }
                             },
                             {
@@ -77,14 +78,22 @@
                                 "Props": {
                                     "Text": "Any member found braking these rules will receive a warning. If you have received a total of 4 warnings, you will be banned from the server.",
                                     "FontSize": 14,
-                                    "Padding": [5, 5, 5, 15]
+                                    "Color": [1, 0.65, 0],
+                                    "Padding": [5, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                                "Props": {
+                                    "Padding": [5, 5, 5, 10]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "1. Trading for real money",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
@@ -100,7 +109,8 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "2. Spawn points, rare resources, caves and other POIs",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
@@ -116,7 +126,8 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "3. Structures",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
@@ -133,6 +144,7 @@
                                 "Props": {
                                     "Text": "- Only one main base per tribe per map",
                                     "FontSize": 13,
+                                    "Color": [1, 0.85, 0.5],
                                     "Padding": [15, 5, 5, 3]
                                 }
                             },
@@ -164,7 +176,8 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "4. Breeding",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
@@ -181,6 +194,7 @@
                                 "Props": {
                                     "Text": "There can also only be a maximum of 14 females per breeding project. This rule is because some console member experience a lot of crashing when one base has a lot of tames out.",
                                     "FontSize": 13,
+                                    "Color": [1, 0.85, 0.5],
                                     "Padding": [15, 5, 5, 5]
                                 }
                             },
@@ -188,15 +202,17 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "This rule may change in the future.",
-                                    "FontSize": 13,
-                                    "Padding": [15, 5, 5, 5]
+                                    "FontSize": 12,
+                                    "Color": [0.7, 0.7, 0.7],
+                                    "Padding": [15, 5, 5, 3]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "This rule does not apply to the CS-Propagator.",
-                                    "FontSize": 13,
+                                    "FontSize": 12,
+                                    "Color": [0.7, 0.7, 0.7],
                                     "Padding": [15, 5, 5, 15]
                                 }
                             },
@@ -204,7 +220,8 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "5. Names",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
@@ -220,7 +237,8 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "6. Other People's Tames",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
@@ -236,7 +254,8 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "7. Trades",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
