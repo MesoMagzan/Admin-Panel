@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended (UPDATE 15)",
+                            "Text": "Welcome to Mesozoic Ascended (UPDATE 16)",
                             "FontSize": 42,
                             "Justification": "Center",
                             "Color": [0, 0.8, 0.8],
@@ -79,7 +79,7 @@
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                         "Props": {
                             "Label": "Support Our Server",
-                            "Image": "https://cdn.discordapp.com/attachments/1437142335858282637/1437142401738080256/2533431-middle.png?ex=69122aa9&is=6910d929&hm=dd9cdb69160815efb16897a7e10d7b1221071ab5b8913b3f0897329d013a4dbe&",
+                            "Image": "https://cdn.discordapp.com/attachments/1437142335858282637/1437144294153519294/png-clipart-patreon-podcast-youtube-computer-icons-youtube-angle-text.png?ex=69122c6c&is=6910daec&hm=7dbd51b17fb16ed488d45ef921c6123d7c4201902afdd8a2d61eddc99225f78e&",
                             "Padding": [5, 5, 5, 5]
                         },
                         "OnClickEvent": {
