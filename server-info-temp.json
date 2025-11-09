@@ -8,7 +8,7 @@
             "Fill": 1
         },
         "UICache": {
-            "SaveFile": "MyServerPage-MainTab-Update05"
+            "SaveFile": "MyServerPage-MainTab"
         },
         "Tabs": [
             {
@@ -31,7 +31,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UI Update 05)",
+                            "Text": "Welcome to Mesozoic Ascended! (UI Update 04)",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 20]
