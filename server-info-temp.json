@@ -12,18 +12,35 @@
         },
         "Tabs": [
             {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
                 "Props": {
                     "Title": "Welcome",
                     "Note": "Server Home Page",
-                    "Fill": 1,
-                    "Image": "https://cdn.discordapp.com/attachments/1225103692051648582/1391701151707172954/magz_icon2.png?ex=6911a5b3&is=69105433&hm=42785ba0f9f796f55a6fabd9a0c3f824de0787608cd1924ffa724c19b96de322&"
+                    "Fill": 1
                 },
                 "UIItems": [
                     {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                        "Props": {
+                            "HorizontalAlignment": 1,
+                            "Padding": [5, 10, 5, 10]
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                                "Props": {
+                                    "Image": "https://cdn.discordapp.com/attachments/1225103692051648582/1391701151707172954/magz_icon2.png?ex=6911a5b3&is=69105433&hm=42785ba0f9f796f55a6fabd9a0c3f824de0787608cd1924ffa724c19b96de322&",
+                                    "Width": 200,
+                                    "Height": 200,
+                                    "Padding": [5, 5, 5, 5]
+                                }
+                            }
+                        ]
+                    },
+                    {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 06)",
+                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 07)",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 20]
