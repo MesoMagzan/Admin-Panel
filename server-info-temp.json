@@ -38,13 +38,14 @@
                         }
                     },
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Link_v1.DU_View_Link_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                         "Props": {
-                            "Text": "Join Our Discord",
-                            "URL": "https://discord.gg/zEkz9VnmNP",
-                            "FontSize": 18,
-                            "Justification": "Center",
+                            "Label": "Join Our Discord",
+                            "Image": "/Ark-Nucleus/SharedContent/Textures/Icons/T_Nucleus_DiscordLogo.T_Nucleus_DiscordLogo",
                             "Padding": [5, 20, 5, 5]
+                        },
+                        "OnClickEvent": {
+                            "Url": "https://discord.gg/zEkz9VnmNP"
                         }
                     }
                 ]
