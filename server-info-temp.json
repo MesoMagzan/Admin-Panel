@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended (UPDATE 17)",
+                            "Text": "Welcome to Mesozoic Ascended (UPDATE 18)",
                             "FontSize": 42,
                             "Justification": "Center",
                             "Color": [0, 0.8, 0.8],
@@ -94,6 +94,547 @@
                         "OnClickEvent": {
                             "Url": "https://www.patreon.com/c/MesozoicAscendedCluster"
                         }
+                    }
+                ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Props": {
+                    "Title": "Server Stats",
+                    "Note": "Server settings and multipliers",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalScrollBox_v1.DU_Panel_VerticalScrollBox_v1_C",
+                        "Props": {
+                            "Fill": 1
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Slightly Increased Loot Drop Quality",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Custom Stack Sizes",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Prime Meat - 100",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Prime Fish Meat - 100",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Raw Mutton - 100",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Wyvern Milk - 20",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Honey - 50",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Human Poop - 20",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Small Dino Poop - 20",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Medium Dino Poop - 15",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Large Dino Poop - 10",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 3]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Massive Dino Poop - 5",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Player Slots",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 100",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Generic XP Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 2",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Harvest Amount",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 3",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Max Wild Dino Level",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 150",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Taming Speed Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 4.0",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Mating Interval Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 0.001",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Egg Hatch Speed Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 18",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Baby Mature Speed Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 45.0",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Baby Cuddle Interval Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 0.015",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Baby Imprint Amount Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 4.0",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Baby Cuddle Grace Period Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 10",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Baby Cuddle Lose Imprint Quality Speed Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 0.015",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Player Weight Stat Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 5",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Tamed Dino Weight Stat Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 2",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Global Spoiling Time Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 2",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Global Item Decomposition Time Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 10",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Global Corpse Decomposition Time Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 4",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Crop Growth Speed Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 1",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Crop Decay Speed Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 0.5",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Lay Egg Interval Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 1",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Poop Interval Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 1.5",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Fuel Consumption Interval Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 2.5",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Crafting Skill Bonus Multiplier",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- 2",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Random Supply Crate Points",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- True",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Engram Points Per Level",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Increased",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            }
+                        ]
                     }
                 ]
             },
