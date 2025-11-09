@@ -20,13 +20,22 @@
                 },
                 "UIItems": [
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
                         "Props": {
-                            "Image": "https://cdn.discordapp.com/attachments/1225103692051648582/1391701151707172954/magz_icon2.png?ex=6889db33&is=688889b3&hm=bab3cc5e14b86ab054844b4ef73e19d678341cfe0553169a4f19a60bc4b38e2a&",
-                            "Width": 200,
-                            "Height": 200,
-                            "Padding": [10, 10, 10, 10]
-                        }
+                            "HorizontalAlignment": 1,
+                            "Padding": [5, 10, 5, 10]
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                                "Props": {
+                                    "Image": "https://cdn.discordapp.com/attachments/1225103692051648582/1391701151707172954/magz_icon2.png",
+                                    "Width": 200,
+                                    "Height": 200,
+                                    "Padding": [5, 5, 5, 5]
+                                }
+                            }
+                        ]
                     },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
@@ -60,7 +69,7 @@
                 ]
             },
             {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_ScrollBox_v1.DU_Panel_ScrollBox_v1_C",
                 "Props": {
                     "Title": "In-Game Rules",
                     "Note": "Please read and follow our server rules",
