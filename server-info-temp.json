@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended (UPDATE 18)",
+                            "Text": "Welcome to Mesozoic Ascended (UPDATE 19)",
                             "FontSize": 42,
                             "Justification": "Center",
                             "Color": [0, 0.8, 0.8],
@@ -641,8 +641,8 @@
             {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
                 "Props": {
-                    "Title": "In-Game Rules",
-                    "Note": "Please read and follow our server rules",
+                    "Title": "Community Rules",
+                    "Note": "Please read and follow our community rules",
                     "Fill": 1
                 },
                 "UIItems": [
@@ -655,19 +655,9 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "By playing on our Ark server, you agree to the following rule.",
+                                    "Text": "Please be sure to read through our community rules.",
                                     "FontSize": 32,
                                     "Color": [1, 0.5, 0.5],
-                                    "Justification": "Center",
-                                    "Padding": [5, 5, 5, 5]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "Any member found braking these rules will receive a warning. If you have received a total of 4 warnings, you will be banned from the server.",
-                                    "FontSize": 18,
-                                    "Color": [1, 0.65, 0],
                                     "Justification": "Center",
                                     "Padding": [5, 5, 5, 10]
                                 }
@@ -681,7 +671,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "1. Trading for real money",
+                                    "Text": "1. TOS",
                                     "FontSize": 18,
                                     "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
@@ -690,7 +680,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "- No trading any in-game resource, items or tames for real life money.",
+                                    "Text": "- All members must follow ASA and Discord's TOS. Links to these can be found in the full community-rules channel.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -698,7 +688,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "2. Spawn points, rare resources, caves and other POIs",
+                                    "Text": "2. Respect",
                                     "FontSize": 18,
                                     "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
@@ -707,7 +697,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "- No building on/blocking off player spawn points or blocking off rare resources/caves/other POIs.",
+                                    "Text": "- Treat everyone with respect. Absolutely no harassment, witch hunting, sexism, racism or hate speech will be tolerated. Joking around in this way with friends should not be done publicly and kept to private dms.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -715,7 +705,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "3. Structures",
+                                    "Text": "3. Content",
                                     "FontSize": 18,
                                     "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
@@ -724,39 +714,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "- No leaving random structures around the map such as taming traps, campfires, in-take pipes and so on.",
-                                    "FontSize": 13,
-                                    "Padding": [15, 5, 5, 3]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "- Only one main base per tribe per map",
-                                    "FontSize": 13,
-                                    "Padding": [15, 5, 5, 3]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "- Tribes can have either a water pen or an outpost as well as their main base per map",
-                                    "FontSize": 13,
-                                    "Padding": [15, 5, 5, 3]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "- If a tribes main base has a water pen with it, the tribe can then also have another water pen or an outpost somewhere else per map",
-                                    "FontSize": 13,
-                                    "Padding": [15, 5, 5, 3]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "- A breeding hatchery can class as an outpost",
+                                    "Text": "- No age-restricted or obscene content. This includes text, images or links featuring nudity, sex, hard violence or other disturbing graphic content. Political debates, personal drama or talking about any sensitive topics such as suicide, rape and so on must be kept out of the community. Stealing other members' content (images and so on) and claiming it as your own is also not allowed.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -764,7 +722,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "4. Breeding",
+                                    "Text": "4. Spam",
                                     "FontSize": 18,
                                     "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
@@ -773,50 +731,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "- Only 2 different species are allowed to be breeding per base per tribe. This means that at one tribes base on one map, there cannot be more than two breeding projects happening at the same time. The same tribe can breed another two species at another base on a different map.",
-                                    "FontSize": 13,
-                                    "Padding": [15, 5, 5, 5]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "- There can also only be a maximum of 14 females per breeding project. This rule is because some console member experience a lot of crashing when one base has a lot of tames out.",
-                                    "FontSize": 13,
-                                    "Padding": [15, 5, 5, 5]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "Note: This rule may change in the future.",
-                                    "FontSize": 12,
-                                    "Color": [0.7, 0.7, 0.7],
-                                    "Padding": [15, 5, 5, 3]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "Note: This rule does not apply to the CS-Propagator.",
-                                    "FontSize": 12,
-                                    "Color": [0.7, 0.7, 0.7],
-                                    "Padding": [15, 5, 5, 15]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "5. Names",
-                                    "FontSize": 18,
-                                    "Color": [0.4, 0.85, 1],
-                                    "Padding": [5, 10, 5, 5]
-                                }
-                            },
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                "Props": {
-                                    "Text": "- Default Human names for survivors are not allowed. Members must name their survivors when creating them.",
+                                    "Text": "- No spam or self-promotion (server invites, advertisements etc) without permission from a staff member. This includes spamming/sending unwanted invites in DMs of fellow members.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -824,7 +739,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "6. Other People's Tames",
+                                    "Text": "5. Rules",
                                     "FontSize": 18,
                                     "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
@@ -833,7 +748,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "- It is against the rules to kill/interfere with other people's tames. If you come across a knocked out wild creature that you did not knock out yourself, you must leave it alone. If you witness a wild creature being knocked out by another wild creature, it is okay to kill the knocked out creature.",
+                                    "Text": "- All members must read though our community-rules and our in-game-rules in full.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -841,7 +756,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "7. Trades",
+                                    "Text": "6. Alternate Accounts",
                                     "FontSize": 18,
                                     "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
@@ -850,7 +765,58 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "- All trades must be reasonable. This means that something like a heavily mutated fertilized egg cannot be traded for 100 stone for example. All players must think realistically when attempting to trade with others.",
+                                    "Text": "- Alternative accounts are not allowed and will be banned if discovered.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "7. Reporting",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- If you see something against the rules or something that makes you feel unsafe, let staff know. We want this server to be a welcoming space! (We will have a ticket system for this).",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "8. Arguments",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Discussing/arguing about rule breaks or warnings in public is not allowed.",
+                                    "FontSize": 13,
+                                    "Padding": [15, 5, 5, 15]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "9. Voice Chat Channels",
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- All members must also follow all community rules in voice chat channels. If a moderator is not present in a voice chat channel when a community rule is broken, a recording must be presented to staff before anything can be done about it.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 10]
                                 }
