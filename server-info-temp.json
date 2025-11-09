@@ -20,27 +20,18 @@
                 },
                 "UIItems": [
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
                         "Props": {
-                            "HorizontalAlignment": 1,
-                            "Padding": [5, 10, 5, 10]
-                        },
-                        "UIItems": [
-                            {
-                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
-                                "Props": {
-                                    "Image": "https://cdn.discordapp.com/attachments/1225103692051648582/1391701151707172954/magz_icon2.png",
-                                    "Width": 200,
-                                    "Height": 200,
-                                    "Padding": [5, 5, 5, 5]
-                                }
-                            }
-                        ]
+                            "Image": "https://static.wikia.nocookie.net/ark-survival-evolved/images/1/12/Therizinosaur_Dossier.jpg/revision/latest/scale-to-width-down/1000?cb=20150908134516",
+                            "Width": 300,
+                            "Height": 200,
+                            "Padding": [10, 10, 10, 10]
+                        }
                     },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UI Update 01)",
+                            "Text": "Welcome to Mesozoic Ascended! (UI Update 02)",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 20]
@@ -69,7 +60,7 @@
                 ]
             },
             {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_ScrollBox_v1.DU_Panel_ScrollBox_v1_C",
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
                 "Props": {
                     "Title": "In-Game Rules",
                     "Note": "Please read and follow our server rules",
@@ -77,188 +68,196 @@
                 },
                 "UIItems": [
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_ScrollBox_v1.DU_Panel_ScrollBox_v1_C",
                         "Props": {
-                            "Text": "By playing on our Ark server, you agree to the following rule.",
-                            "FontSize": 14,
-                            "Padding": [5, 5, 5, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "Any member found braking these rules will receive a \"warning\". If you have received a total of 4 warnings, you will be banned from the server.",
-                            "FontSize": 14,
-                            "Padding": [5, 5, 5, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "1. Trading for real money",
-                            "FontSize": 16,
-                            "Padding": [5, 10, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "No trading any in-game resource, items or tames for real life money.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "2. Spawn points, rare resources, caves and other POIs",
-                            "FontSize": 16,
-                            "Padding": [5, 10, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "No building on/blocking off player spawn points or blocking off rare resources/caves/other POIs.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "3. Structures",
-                            "FontSize": 16,
-                            "Padding": [5, 10, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "- No leaving random structures around the map such as taming traps, campfires, in-take pipes and so on.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "- Only one main base per tribe per map",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "- Tribes can have either a water pen or an outpost as well as their main base per map",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "- If a tribes main base has a water pen with it, the tribe can then also have another water pen or an outpost somewhere else per map",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "- A breeding hatchery can class as an outpost",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "4. Breeding",
-                            "FontSize": 16,
-                            "Padding": [5, 10, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "Only 2 different species are allowed to be breeding per base per tribe. This means that at one tribes base on one map, there cannot be more than two breeding projects happening at the same time. The same tribe can breed another two species at another base on a different map.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "There can also only be a maximum of 14 females per breeding project. This rule is because some console member experience a lot of crashing when one base has a lot of tames out.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "This rule may change in the future.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "This rule does not apply to the CS-Propagator.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "5. Names",
-                            "FontSize": 16,
-                            "Padding": [5, 10, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "Default \"Human\" names for survivors are not allowed. Members must name their survivors when creating them.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "6. Other People's Tames",
-                            "FontSize": 16,
-                            "Padding": [5, 10, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "It is against the rules to kill/interfere with other people's tames. If you come across a knocked out wild creature that you did not knock out yourself, you must leave it alone. If you witness a wild creature being knocked out by another wild creature, it is okay to kill the knocked out creature.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 10]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "7. Trades",
-                            "FontSize": 16,
-                            "Padding": [5, 10, 5, 5]
-                        }
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "All trades must be reasonable. This means that something like a heavily mutated fertilized egg cannot be traded for 100 stone for example. All players must think realistically when attempting to trade with others.",
-                            "FontSize": 14,
-                            "Padding": [15, 5, 5, 10]
-                        }
+                            "Fill": 1
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "By playing on our Ark server, you agree to the following rule.",
+                                    "FontSize": 14,
+                                    "Padding": [5, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Any member found braking these rules will receive a \"warning\". If you have received a total of 4 warnings, you will be banned from the server.",
+                                    "FontSize": 14,
+                                    "Padding": [5, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "1. Trading for real money",
+                                    "FontSize": 16,
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "No trading any in-game resource, items or tames for real life money.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "2. Spawn points, rare resources, caves and other POIs",
+                                    "FontSize": 16,
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "No building on/blocking off player spawn points or blocking off rare resources/caves/other POIs.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "3. Structures",
+                                    "FontSize": 16,
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- No leaving random structures around the map such as taming traps, campfires, in-take pipes and so on.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Only one main base per tribe per map",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- Tribes can have either a water pen or an outpost as well as their main base per map",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- If a tribes main base has a water pen with it, the tribe can then also have another water pen or an outpost somewhere else per map",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "- A breeding hatchery can class as an outpost",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "4. Breeding",
+                                    "FontSize": 16,
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Only 2 different species are allowed to be breeding per base per tribe. This means that at one tribes base on one map, there cannot be more than two breeding projects happening at the same time. The same tribe can breed another two species at another base on a different map.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "There can also only be a maximum of 14 females per breeding project. This rule is because some console member experience a lot of crashing when one base has a lot of tames out.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "This rule may change in the future.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "This rule does not apply to the CS-Propagator.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "5. Names",
+                                    "FontSize": 16,
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Default \"Human\" names for survivors are not allowed. Members must name their survivors when creating them.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "6. Other People's Tames",
+                                    "FontSize": 16,
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "It is against the rules to kill/interfere with other people's tames. If you come across a knocked out wild creature that you did not knock out yourself, you must leave it alone. If you witness a wild creature being knocked out by another wild creature, it is okay to kill the knocked out creature.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "7. Trades",
+                                    "FontSize": 16,
+                                    "Padding": [5, 10, 5, 5]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "All trades must be reasonable. This means that something like a heavily mutated fertilized egg cannot be traded for 100 stone for example. All players must think realistically when attempting to trade with others.",
+                                    "FontSize": 14,
+                                    "Padding": [15, 5, 5, 10]
+                                }
+                            }
+                        ]
                     }
                 ]
             }
