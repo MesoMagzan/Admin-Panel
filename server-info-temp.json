@@ -85,7 +85,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "⚠️ Any member found breaking these rules will receive a \"warning\". If you have received a total of 4 warnings, you will be banned from the server.",
+                                    "Text": "Any member found breaking these rules will receive a \"warning\". If you have received a total of 4 warnings, you will be banned from the server.",
                                     "FontSize": 14,
                                     "Color": [1, 0.6, 0],
                                     "Padding": [5, 5, 5, 15]
