@@ -32,8 +32,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
                         "Props": {
-                            "HorizontalAlignment": 1,
-                            "VerticalAlignment": 1,
+                            "Justification": "Center",
                             "Padding": [5, 10, 5, 10]
                         },
                         "UIItems": [
