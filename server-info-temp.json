@@ -36,6 +36,16 @@
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 5]
                         }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Link_v1.DU_View_Link_v1_C",
+                        "Props": {
+                            "Text": "Join Our Discord",
+                            "URL": "https://discord.gg/zEkz9VnmNP",
+                            "FontSize": 18,
+                            "Justification": "Center",
+                            "Padding": [5, 20, 5, 5]
+                        }
                     }
                 ]
             },
