@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended (UPDATE 13)",
+                            "Text": "Welcome to Mesozoic Ascended (UPDATE 14)",
                             "FontSize": 42,
                             "Justification": "Center",
                             "Color": [0, 0.8, 0.8],
@@ -79,7 +79,7 @@
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                         "Props": {
                             "Label": "Support Our Server",
-                            "Image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Patreon_logo.svg",
+                            "Image": "https://logos-world.net/wp-content/uploads/2021/03/Patreon-Logo.png",
                             "Padding": [5, 5, 5, 5]
                         },
                         "OnClickEvent": {
