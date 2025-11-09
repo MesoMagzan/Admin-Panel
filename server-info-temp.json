@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 10)",
+                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 11)",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Color": [0, 0.8, 0.8],
@@ -30,9 +30,19 @@
                         }
                     },
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
+                            "Text": "Your adventure starts here. Explore, survive, and thrive!",
+                            "FontSize": 20,
                             "Justification": "Center",
+                            "Color": [1, 1, 0],
+                            "Padding": [5, 5, 5, 15]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                        "Props": {
+                            "HorizontalAlignment": 1,
                             "Padding": [5, 10, 5, 10]
                         },
                         "UIItems": [
@@ -46,15 +56,6 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                            "Text": "Your adventure starts here. Explore, survive, and thrive!",
-                            "FontSize": 16,
-                            "Justification": "Center",
-                            "Padding": [5, 5, 5, 5]
-                        }
                     },
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
