@@ -4,6 +4,7 @@
 # Allow only these two files
 !server-info-live.json
 !server-info-temp.json
+!info-test.json
 
 # Don't forget to include .gitignore itself
 !.gitignore
