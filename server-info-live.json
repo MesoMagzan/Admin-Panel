@@ -1,0 +1,79 @@
+{
+    "RequestUID": "Ark-Nucleus/WebUI",
+    "UUID": "MyServerInfoPage",
+    "Data": {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
+        "Props": {
+            "UUID": "MainTab",
+            "Fill": 1
+        },
+        "UICache": {
+            "SaveFile": "MyServerPage-MainTab"
+        },
+        "Tabs": [
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                "Props": {
+                    "Title": "Welcome",
+                    "Note": "Server Home Page",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
+                        "Props": {
+                            "Fill": 1,
+                            "Padding": [30, 30, 30, 30]
+                        },
+                        "UIItems": [
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Welcome to My Server!",
+                                    "FontSize": 32,
+                                    "Justification": "Center",
+                                    "Padding": [5, 5, 5, 20]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                    "Text": "Your adventure starts here. Explore, survive, and thrive!",
+                                    "FontSize": 16,
+                                    "Justification": "Center",
+                                    "Padding": [5, 5, 5, 5]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+                "Props": {
+                    "Title": "Server Rules",
+                    "Note": "Please read and follow our server rules",
+                    "Fill": 1
+                },
+                "UIItems": [
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "1. Be respectful to all players",
+                            "FontSize": 14,
+                            "Padding": [5, 5, 5, 5]
+                        }
+                    },
+                    {
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                        "Props": {
+                            "Text": "2. No cheating or exploiting",
+                            "FontSize": 14,
+                            "Padding": [5, 5, 5, 5]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

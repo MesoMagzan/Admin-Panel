@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Allow only these two files
+!server-info-live.json
+!server-info-temp.json
+
+# Don't forget to include .gitignore itself
+!.gitignore
