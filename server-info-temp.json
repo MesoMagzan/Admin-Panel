@@ -1,4 +1,4 @@
-﻿{
+{
     "RequestUID": "Ark-Nucleus/WebUI",
     "UUID": "MyServerInfoPage",
     "Data": {
@@ -8,7 +8,7 @@
             "Fill": 1
         },
         "UICache": {
-            "SaveFile": "MyServerPage-MainTab"
+            "SaveFile": "MyServerPage-Fresh"
         },
         "Tabs": [
             {
@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UI Update 06)",
+                            "Text": "Welcome to Mesozoic Ascended! (FRESH START)",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 20]
@@ -67,8 +67,8 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "Test",
-                                    "FontSize": 24,
+                                    "Text": "Rules will go here - this is a fresh start!",
+                                    "FontSize": 18,
                                     "Padding": [5, 5, 5, 5]
                                 }
                             }
