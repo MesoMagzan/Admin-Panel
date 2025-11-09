@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 01)",
+                            "Text": "Welcome to Mesozoic Ascended!",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 20]
@@ -68,30 +68,41 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "By playing on our Ark server, you agree to the following rule.",
-                                    "FontSize": 14,
-                                    "Padding": [5, 5, 5, 10]
+                                    "FontSize": 32,
+                                    "Color": [1, 0.5, 0.5],
+                                    "Justification": "Center",
+                                    "Padding": [5, 5, 5, 5]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "Any member found braking these rules will receive a warning. If you have received a total of 4 warnings, you will be banned from the server.",
-                                    "FontSize": 14,
-                                    "Padding": [5, 5, 5, 15]
+                                    "FontSize": 18,
+                                    "Color": [1, 0.65, 0],
+                                    "Justification": "Center",
+                                    "Padding": [5, 5, 5, 10]
+                                }
+                            },
+                            {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Misc/DU_Misc_Line_v1.DU_Misc_Line_v1_C",
+                                "Props": {
+                                    "Padding": [5, 5, 5, 10]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "1. Trading for real money",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "No trading any in-game resource, items or tames for real life money.",
+                                    "Text": "- No trading any in-game resource, items or tames for real life money.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -100,14 +111,15 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "2. Spawn points, rare resources, caves and other POIs",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "No building on/blocking off player spawn points or blocking off rare resources/caves/other POIs.",
+                                    "Text": "- No building on/blocking off player spawn points or blocking off rare resources/caves/other POIs.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -116,7 +128,8 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "3. Structures",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
@@ -164,14 +177,15 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "4. Breeding",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "Only 2 different species are allowed to be breeding per base per tribe. This means that at one tribes base on one map, there cannot be more than two breeding projects happening at the same time. The same tribe can breed another two species at another base on a different map.",
+                                    "Text": "- Only 2 different species are allowed to be breeding per base per tribe. This means that at one tribes base on one map, there cannot be more than two breeding projects happening at the same time. The same tribe can breed another two species at another base on a different map.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 5]
                                 }
@@ -179,7 +193,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "There can also only be a maximum of 14 females per breeding project. This rule is because some console member experience a lot of crashing when one base has a lot of tames out.",
+                                    "Text": "- There can also only be a maximum of 14 females per breeding project. This rule is because some console member experience a lot of crashing when one base has a lot of tames out.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 5]
                                 }
@@ -187,16 +201,18 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "This rule may change in the future.",
-                                    "FontSize": 13,
-                                    "Padding": [15, 5, 5, 5]
+                                    "Text": "Note: This rule may change in the future.",
+                                    "FontSize": 12,
+                                    "Color": [0.7, 0.7, 0.7],
+                                    "Padding": [15, 5, 5, 3]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "This rule does not apply to the CS-Propagator.",
-                                    "FontSize": 13,
+                                    "Text": "Note: This rule does not apply to the CS-Propagator.",
+                                    "FontSize": 12,
+                                    "Color": [0.7, 0.7, 0.7],
                                     "Padding": [15, 5, 5, 15]
                                 }
                             },
@@ -204,14 +220,15 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "5. Names",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "Default Human names for survivors are not allowed. Members must name their survivors when creating them.",
+                                    "Text": "- Default Human names for survivors are not allowed. Members must name their survivors when creating them.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -220,14 +237,15 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "6. Other People's Tames",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "It is against the rules to kill/interfere with other people's tames. If you come across a knocked out wild creature that you did not knock out yourself, you must leave it alone. If you witness a wild creature being knocked out by another wild creature, it is okay to kill the knocked out creature.",
+                                    "Text": "- It is against the rules to kill/interfere with other people's tames. If you come across a knocked out wild creature that you did not knock out yourself, you must leave it alone. If you witness a wild creature being knocked out by another wild creature, it is okay to kill the knocked out creature.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -236,14 +254,15 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "7. Trades",
-                                    "FontSize": 16,
+                                    "FontSize": 18,
+                                    "Color": [0.4, 0.85, 1],
                                     "Padding": [5, 10, 5, 5]
                                 }
                             },
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "All trades must be reasonable. This means that something like a heavily mutated fertilized egg cannot be traded for 100 stone for example. All players must think realistically when attempting to trade with others.",
+                                    "Text": "- All trades must be reasonable. This means that something like a heavily mutated fertilized egg cannot be traded for 100 stone for example. All players must think realistically when attempting to trade with others.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 10]
                                 }
