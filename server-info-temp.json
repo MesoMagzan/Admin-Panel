@@ -22,7 +22,7 @@
                     {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 04)",
+                            "Text": "Welcome to Mesozoic Ascended! (UPDATE 05)",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 20]
@@ -68,7 +68,7 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "By playing on our Ark server, you agree to the following rule.",
-                                    "FontSize": 22,
+                                    "FontSize": 32,
                                     "Color": [1, 0.5, 0.5],
                                     "Justification": "Center",
                                     "Padding": [5, 5, 5, 5]
@@ -78,7 +78,7 @@
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
                                     "Text": "Any member found braking these rules will receive a warning. If you have received a total of 4 warnings, you will be banned from the server.",
-                                    "FontSize": 14,
+                                    "FontSize": 18,
                                     "Color": [1, 0.65, 0],
                                     "Justification": "Center",
                                     "Padding": [5, 5, 5, 10]
