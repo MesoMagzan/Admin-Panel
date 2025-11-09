@@ -143,7 +143,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "• No leaving random structures around the map such as taming traps, campfires, in-take pipes and so on.",
+                                    "Text": "No leaving random structures around the map such as taming traps, campfires, in-take pipes and so on.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 3]
                                 }
@@ -151,7 +151,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "• Only one main base per tribe per map",
+                                    "Text": "Only one main base per tribe per map",
                                     "FontSize": 13,
                                     "Color": [1, 0.8, 0.4],
                                     "Padding": [15, 5, 5, 3]
@@ -160,7 +160,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "• Tribes can have either a water pen or an outpost as well as their main base per map",
+                                    "Text": "Tribes can have either a water pen or an outpost as well as their main base per map",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 3]
                                 }
@@ -168,7 +168,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "• If a tribes main base has a water pen with it, the tribe can then also have another water pen or an outpost somewhere else per map",
+                                    "Text": "If a tribes main base has a water pen with it, the tribe can then also have another water pen or an outpost somewhere else per map",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 3]
                                 }
@@ -176,7 +176,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "• A breeding hatchery can class as an outpost",
+                                    "Text": "A breeding hatchery can class as an outpost",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -237,7 +237,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "Default \"Human\" names for survivors are not allowed. Members must name their survivors when creating them.",
+                                    "Text": "Default Human names for survivors are not allowed. Members must name their survivors when creating them.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 15]
                                 }
@@ -263,7 +263,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "• If you come across a knocked out wild creature that you did not knock out yourself, you must leave it alone.",
+                                    "Text": "If you come across a knocked out wild creature that you did not knock out yourself, you must leave it alone.",
                                     "FontSize": 13,
                                     "Padding": [15, 5, 5, 3]
                                 }
@@ -271,7 +271,7 @@
                             {
                                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                                 "Props": {
-                                    "Text": "• If you witness a wild creature being knocked out by another wild creature, it is okay to kill the knocked out creature.",
+                                    "Text": "If you witness a wild creature being knocked out by another wild creature, it is okay to kill the knocked out creature.",
                                     "FontSize": 13,
                                     "Color": [0.5, 1, 0.5],
                                     "Padding": [15, 5, 5, 15]
