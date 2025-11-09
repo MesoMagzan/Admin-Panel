@@ -20,18 +20,9 @@
                 },
                 "UIItems": [
                     {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
-                        "Props": {
-                            "Image": "https://static.wikia.nocookie.net/ark-survival-evolved/images/1/12/Therizinosaur_Dossier.jpg/revision/latest/scale-to-width-down/1000?cb=20150908134516",
-                            "Width": 300,
-                            "Height": 200,
-                            "Padding": [10, 10, 10, 10]
-                        }
-                    },
-                    {
                         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                         "Props": {
-                            "Text": "Welcome to Mesozoic Ascended! (UI Update 04)",
+                            "Text": "Welcome to Mesozoic Ascended! (UI Update 05)",
                             "FontSize": 32,
                             "Justification": "Center",
                             "Padding": [5, 5, 5, 20]
